@@ -1,0 +1,2 @@
+$testFile = "test.txt";
+    $contents = "こんにちは！";
