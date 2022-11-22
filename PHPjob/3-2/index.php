@@ -21,6 +21,16 @@ function getPrice($fruits, $quantity) {
 
 foreach ($fruits as $key => $value) {
 	echo $key . "は" . getPrice($fruits, $quantity) . "円です。"."<br>";
+	if($key == 0){
+		echo $value . "は" . getPrice(100, 3) . "円です。"."<br>";
+    } 
+    elseif($key == 1){
+		echo $value . "は" . getPrice(50, 3) . "円です。"."<br>";
+    } 
+    elseif($key == 2){
+		echo $value . "は" . getPrice(500, 6) . "円です。"."<br>";
+    } 
+
 }
 
 foreach ($unitprice as $key => $value) {
@@ -30,5 +40,5 @@ foreach ($unitprice as $key => $value) {
   echo "<br>";
 　// この中で関数を呼び出します
 }
- 
+
 ?>
