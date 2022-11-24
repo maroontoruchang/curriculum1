@@ -11,7 +11,6 @@
 
 $fruits = ["りんご" => "100", "みかん" =>"50", "もも" =>"500"];
 $quantity = [3,3,6];
-echo $quantity[0];
 // 3
 $i = 0;
 
@@ -43,7 +42,7 @@ foreach ($fruits as $key => $value) {
 //  echo "<br>";
 //  echo $value;
 //  echo "<br>";
-　// この中で関数を呼び出します
+// この中で関数を呼び出します
 //}
 
 ?>
