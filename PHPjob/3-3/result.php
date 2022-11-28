@@ -1,17 +1,19 @@
 <?php
 $number = $_GET['number'];
 $omikuji  = $num;
+$rand = [0,1,2,3,4,5,6,7,8,9];
+$rand = [mt_rand(0,9)];
 
 $num = rand(0,9);
- if($omikuji == 0){
+ if($omikuji = 0){
    echo "凶" ;
- }elseif ($omikuji == 1,2,3) {
+ }elseif ($omikuji > 3) {
    echo "小吉";
- }elseif ($omikuji == 4,5,6) {
+ }elseif ($omikuji > 6) {
    echo "中吉";
- }elseif ($omikuji == 7,8) {
+ }elseif ($omikuji > 8) {
    echo "吉";
- }else ($omikuji == 9) {
+ }else ($omikuji = 9) {
      echo "大吉";
  }
 
