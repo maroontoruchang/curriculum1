@@ -1,6 +1,6 @@
 <?php
 
-$number = $_POST["number"];
+$number = $_GET["number"];
 
 $array = str_split($number);
 $keys = array_rand($array,1);
@@ -17,7 +17,7 @@ $rand = [mt_rand(0,9)];
    echo "中吉";
  }elseif ($omikuji <= 8) {
    echo "吉";
- }else ($omikuji == 9) {
+ }elseif ($omikuji == 9) {
      echo "大吉";
  }
 
@@ -28,5 +28,4 @@ print_r($today);
 
 
 <p><?php echo $today; ?> のあなたの運勢 </p>
-<p>選ばれた数字は <?php echo $number; ?></p>
-<p><?php echo $omikuji; ?> です。</p>
+<p>選ばれた数字は <?php echo $omikuji; ?>です。</p>
