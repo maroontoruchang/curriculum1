@@ -26,6 +26,5 @@ print_r($today);
 
 ?>
 
-
 <p><?php echo $today; ?> のあなたの運勢 </p>
 <p>選ばれた数字は <?php echo $omikuji; ?>です。</p>
