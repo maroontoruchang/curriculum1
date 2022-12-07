@@ -50,4 +50,5 @@ foreach ($mysql as $value) {
 ?>
 
 <!--問題の正解の変数と名前の変数を[answer.php]に送る-->
+
 $test_answer = $_POST['test_answer'];
