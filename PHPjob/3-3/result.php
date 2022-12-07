@@ -23,7 +23,6 @@ $today = date("Y-m-d");
 
 ?>
 
-
 <p><?php echo $today; ?> のあなたの運勢 </p>
 <p>選ばれた数字は <?php echo $omikuji; ?></p>
 <p><?php echo $unsei; ?> です。</p>
